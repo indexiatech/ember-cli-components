@@ -18,7 +18,7 @@ function unwatchedTree(dir) {
 EmberCLIEmberComponentsAjax.prototype.treeFor = function treeFor(name) {
   if (name !== 'vendor') { return; }
 
-  var treePath =  path.join('node_modules', 'ember-cli-ember-components', 'node_modules');
+  var treePath =  path.join('node_modules', 'ember-cli-components', 'node_modules');
 
   return unwatchedTree(treePath);
 };
