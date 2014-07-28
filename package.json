@@ -1,0 +1,26 @@
+{
+  "name": "ember-cli-components",
+  "version": "0.1.0",
+  "description": "Include ember-components into an ember-cli application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indexiatech/ember-cli-components"
+  },
+  "keywords": [
+    "ember-addon"
+  ],
+  "author": "Asaf Shakarchi",
+  "license": "ASF 2",
+  "dependencies": {
+    "ember-components": "~0.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/indexiatech/ember-cli-components/issues"
+  },
+  "homepage": "http://indexiatech.github.io/ember-components",
+  "devDependencies": {}
+}
