@@ -28,9 +28,9 @@ EmberCLIEmberComponentsAjax.prototype.included = function included(app) {
   var options = this.app.options.emberComponentsOptions || {enabled: true};
 
   if (options.enabled) {
-    this.app.import('vendor/ember-components/vendor/ic-styled/main.js');
-    this.app.import('vendor/ember-components/vendor/ember-utils/dist/globals/main.js');
-    this.app.import('vendor/ember-components/dist/globals/main.js');
+    this.app.import('bower_components/ic-styled/main.js');
+    this.app.import('bower_components/ember-utils/dist/globals/main.js');
+    this.app.import('bower_components/ember-components/dist/globals/main.js');
   }
 };
 
